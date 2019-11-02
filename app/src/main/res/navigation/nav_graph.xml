@@ -16,7 +16,7 @@
         android:label="fragment_my"
         tools:layout="@layout/fragment_my" >
         <action
-            android:id="@+id/action_myFragment_to_myFragment2"
+            android:id="@+id/action_myFragment_to_myFragment22"
             app:destination="@id/myFragment2" />
     </fragment>
 </navigation>
