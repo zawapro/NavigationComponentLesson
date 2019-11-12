@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph.xml"
     app:startDestination="@id/myFragment">
+    <!-- 初期画面 -->
     <fragment
         android:id="@+id/myFragment"
         android:name="com.zawapro.navigationcomponentlesson.MyFragment"
@@ -13,6 +14,7 @@
             android:id="@+id/action_myFragment_to_myFragment22"
             app:destination="@id/myFragment2" />
     </fragment>
+    <!-- 遷移先画面 -->
     <fragment
         android:id="@+id/myFragment2"
         android:name="com.zawapro.navigationcomponentlesson.MyFragment2"
